@@ -2,6 +2,7 @@ package org.example.simplebbs.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.example.simplebbs.service.ISimpleBbsService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
